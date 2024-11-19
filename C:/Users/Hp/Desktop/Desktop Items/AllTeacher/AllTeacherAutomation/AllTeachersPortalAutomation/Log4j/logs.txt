@@ -1,0 +1,2 @@
+2024-11-19 17:40:15 INFO  BaseClass - Log4j configured successfully. (BaseClass.java:47)
+2024-11-19 17:40:15 INFO  ExtentReportManager - Extent Reports started at /home/nd/eclipse-workspace/vayahvikas/VayaVikas_Automation/ExtentReports/extentReports.html (ExtentReportManager.java:31)
