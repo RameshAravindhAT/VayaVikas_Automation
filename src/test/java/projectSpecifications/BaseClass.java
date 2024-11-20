@@ -59,9 +59,10 @@ public class BaseClass {
     @BeforeMethod
     @Parameters({"browser"})
     public void setUp(String browser) {
-        WebDriver driver = initializeDriver(browser);
+    	
+    	WebDriver driver = initializeDriver(browser);
         driver.manage().window().maximize();
-        driver.get(properties.getProperty("https://dev.vayah-vikas.org/"));
+        driver.get(properties.getProperty("url"));
 
         // Set WebDriver and other resources in TestContext
         TestContext.setDriver(driver);
