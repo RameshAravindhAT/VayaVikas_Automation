@@ -4,16 +4,15 @@
   <test thread-count="5" parallel="classes" name="LoginTest_Chrome(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testPackage.TC_0001_Login">
+      <class name="testPackage.TC_002_HomePage">
         <methods>
           <include name="setUp"/>
-          <include name="testDetails"/>
           <include name="tearDown"/>
-          <include name="validateLogin"/>
+          <include name="validHomepage"/>
           <include name="startReports"/>
           <include name="stopReports"/>
         </methods>
-      </class> <!-- testPackage.TC_0001_Login -->
+      </class> <!-- testPackage.TC_002_HomePage -->
     </classes>
   </test> <!-- LoginTest_Chrome(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -71,6 +71,7 @@ public class BaseClass {
 
         // Initialize the LoginPage object in TestContext
         TestContext.setLoginPage(new PG_0001_LoginPage(driver));
+      
     }
 
     // Initialize WebDriver based on the browser parameter

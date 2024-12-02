@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-20T12:37:32 IST" name="Suite" finished-at="2024-11-20T12:37:37 IST" duration-ms="5331">
+  <suite started-at="2024-12-02T17:58:28 IST" name="Suite" finished-at="2024-12-02T17:59:22 IST" duration-ms="53943">
     <groups>
     </groups>
-    <test started-at="2024-11-20T12:37:32 IST" name="LoginTest_Chrome" finished-at="2024-11-20T12:37:37 IST" duration-ms="5331">
-      <class name="testPackage.TC_0001_Login">
-        <test-method is-config="true" signature="startReports()[pri:0, instance:testPackage.TC_0001_Login@17f9d882]" started-at="2024-11-20T12:37:32 IST" name="startReports" finished-at="2024-11-20T12:37:32 IST" duration-ms="318" status="PASS">
+    <test started-at="2024-12-02T17:58:28 IST" name="LoginTest_Chrome" finished-at="2024-12-02T17:59:22 IST" duration-ms="53943">
+      <class name="testPackage.TC_002_HomePage">
+        <test-method is-config="true" signature="startReports()[pri:0, instance:testPackage.TC_002_HomePage@11392934]" started-at="2024-12-02T17:58:27 IST" name="startReports" finished-at="2024-12-02T17:58:28 IST" duration-ms="348" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReports -->
-        <test-method is-config="true" signature="testDetails()[pri:0, instance:testPackage.TC_0001_Login@17f9d882]" started-at="2024-11-20T12:37:32 IST" name="testDetails" finished-at="2024-11-20T12:37:32 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:testPackage.TC_002_HomePage@11392934]" started-at="2024-12-02T17:58:28 IST" name="testDetails" finished-at="2024-12-02T17:58:28 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDetails -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testPackage.TC_0001_Login@17f9d882]" started-at="2024-11-20T12:37:33 IST" name="setUp" finished-at="2024-11-20T12:37:37 IST" duration-ms="4220" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testPackage.TC_002_HomePage@11392934]" started-at="2024-12-02T17:58:29 IST" name="setUp" finished-at="2024-12-02T17:58:34 IST" duration-ms="4841" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,7 +26,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validateLogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testPackage.TC_0001_Login@17f9d882]" started-at="2024-11-20T12:37:37 IST" name="validateLogin" data-provider="sendData" finished-at="2024-11-20T12:37:37 IST" duration-ms="179" status="PASS">
+        <test-method signature="validHomepage(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testPackage.TC_002_HomePage@11392934]" started-at="2024-12-02T17:58:34 IST" name="validHomepage" data-provider="sendData" finished-at="2024-12-02T17:59:21 IST" duration-ms="47820" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -45,22 +45,22 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[satheesh@navadhiti.com]]>
+                <![CDATA[9361288067]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testPackage.TC_0001_Login@17f9d882]" started-at="2024-11-20T12:37:37 IST" name="tearDown" finished-at="2024-11-20T12:37:37 IST" duration-ms="204" status="PASS">
+        </test-method> <!-- validHomepage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testPackage.TC_002_HomePage@11392934]" started-at="2024-12-02T17:59:22 IST" name="tearDown" finished-at="2024-12-02T17:59:22 IST" duration-ms="118" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="stopReports()[pri:0, instance:testPackage.TC_0001_Login@17f9d882]" started-at="2024-11-20T12:37:37 IST" name="stopReports" finished-at="2024-11-20T12:37:38 IST" duration-ms="292" status="PASS">
+        <test-method is-config="true" signature="stopReports()[pri:0, instance:testPackage.TC_002_HomePage@11392934]" started-at="2024-12-02T17:59:22 IST" name="stopReports" finished-at="2024-12-02T17:59:22 IST" duration-ms="360" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopReports -->
-      </class> <!-- testPackage.TC_0001_Login -->
+      </class> <!-- testPackage.TC_002_HomePage -->
     </test> <!-- LoginTest_Chrome -->
   </suite> <!-- Suite -->
 </testng-results>
