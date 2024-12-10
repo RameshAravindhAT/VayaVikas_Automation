@@ -26,7 +26,10 @@ public class TC_0001_Login extends BaseClass {
 		ExtentReportManager.getTest().assignAuthor(authorName); 
 		ExtentReportManager.getTest().assignCategory(category);
 
-		TestContext.getLoginPage().loginbuttonclick().Enter_the_mobilenumber(mobilenumber).Click_on_loginbutton()
+		TestContext.getLoginPage()
+		.loginbuttonclick()
+		.Enter_the_mobilenumber(mobilenumber).Click_on_loginbutton()
+		
 //	        .VerifyToastMessage(message)
 				.Click_on_continuebutton();
 
