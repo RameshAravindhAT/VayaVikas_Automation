@@ -1,1 +1,40 @@
+Test Case: Verify Admin Login Functionality
+Test Case ID: TC001
+Module: Authentication
+Feature: Admin Login
+Priority: High
+Test Type: Functional
+Description:
+Verify that the admin can successfully log in to the application with valid credentials.
+
+Preconditions:
+Admin user account exists with valid credentials.
+The application is up and running.
+The admin login page is accessible.
+
+Test Steps:
+Open the application in a web browser or mobile device.
+Navigate to the Admin Login page.
+Enter the admin's valid username in the Username field.
+Enter the admin's valid password in the Password field.
+Click the Login button.
+
+Test Data:
+Field	Value
+Username	admin_user
+Password	Admin@123
+
+Expected Result:
+The admin is successfully authenticated.
+The admin is redirected to the Admin Dashboard page.
+The admin sees a personalized greeting or the correct admin dashboard.
+
+Postconditions:
+Admin session is active, and the application tracks the session for authorized activities.
+The logout option is available on the dashboard.
+Negative Test Cases (Optional):
+
+Scenario	Expected Result
+Login with an invalid username or password	Error message: "Invalid credentials."
+Login with empty username or password fields	Error message: "Please enter all fields."
 
