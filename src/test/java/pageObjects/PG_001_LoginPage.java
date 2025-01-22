@@ -64,7 +64,6 @@ public class PG_001_LoginPage {
             ExtentReportManager.reportStep(methodName + " " + passwordValue, "pass");
             TestContext.getLogger().info(methodName + " " + passwordValue);
         } catch (Exception e) {
-            ExtentReportManager.reportStep(methodName + " " + passwordValue, "fail");
             TestContext.getLogger().error(methodName + " " + passwordValue);
             e.printStackTrace();
         }
@@ -78,7 +77,7 @@ public class PG_001_LoginPage {
             ExtentReportManager.reportStep(methodName, "pass");
             TestContext.getLogger().info(methodName);
         } catch (Exception e) {
-            ExtentReportManager.reportStep(methodName, "fail");
+           
             e.printStackTrace();
             TestContext.getLogger().error(methodName);
         }

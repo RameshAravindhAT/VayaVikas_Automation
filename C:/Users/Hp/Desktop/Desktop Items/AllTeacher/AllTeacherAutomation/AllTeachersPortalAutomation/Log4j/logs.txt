@@ -1,0 +1,5 @@
+2024-12-23 17:09:44 INFO  BaseClass - Log4j configured successfully. (BaseClass.java:47)
+2024-12-23 17:09:45 INFO  ExtentReportManager - Extent Reports started at /home/nd/git/VayaVikas_Automation/ExtentReports/extentReports.html (ExtentReportManager.java:31)
+2024-12-23 17:09:51 INFO  BaseClass - Browser Closed (BaseClass.java:120)
+2024-12-23 17:09:51 INFO  BaseClass - ============================================================= (BaseClass.java:121)
+2024-12-23 17:09:51 INFO  ExtentReportManager - Extent Reports flushed successfully. (ExtentReportManager.java:74)
