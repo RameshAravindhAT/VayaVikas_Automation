@@ -1,1 +1,22 @@
+# Test Cases for [Feature/Module Name]
+
+## Test Case 1: Verify Login Functionality
+- **Test ID:** TC001
+- **Description:** Verify that a user can log in with valid credentials.
+- **Preconditions:** The user must have a registered account.
+- **Steps:**
+  1. Navigate to the login page.
+  2. Enter a valid username and password.
+  3. Click the "Login" button.
+- **Expected Result:** The user is redirected to the dashboard.
+
+## Test Case 2: Verify Login with Invalid Credentials
+- **Test ID:** TC002
+- **Description:** Verify that login fails with invalid credentials.
+- **Preconditions:** None.
+- **Steps:**
+  1. Navigate to the login page.
+  2. Enter an invalid username or password.
+  3. Click the "Login" button.
+- **Expected Result:** An error message is displayed.
 
