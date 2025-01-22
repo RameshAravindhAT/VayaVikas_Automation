@@ -28,7 +28,7 @@ public class CustomTestListener extends BaseClass implements ITestListener {
 
     public static String getCurrentTestMethodName() {
         return currentMethodName.get();
-    }
+    }//option[contains(text(),'News')]
 
     public void onTestFinish(ITestResult result) {
         currentMethodName.remove();

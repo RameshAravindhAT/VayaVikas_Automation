@@ -21,7 +21,7 @@ public class TestContext {
     private static ThreadLocal<String> sheetName = new ThreadLocal<>();
     private static ThreadLocal<PG_0001_LoginPage> login = new ThreadLocal<>();
     
-    private static final Logger logger = Logger.getLogger(TestContext.class);
+    private static final Logger LOGGER = Logger.getLogger(TestContext.class);
 
 
     // Getter and Setter for WebDriver
@@ -73,7 +73,7 @@ public class TestContext {
     }
     
     public static Logger getLogger() {
-        return logger;
+        return getLogger();
     }
 
 }

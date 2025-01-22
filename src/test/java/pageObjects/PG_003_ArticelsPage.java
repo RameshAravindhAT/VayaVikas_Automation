@@ -275,7 +275,7 @@ public class PG_003_ArticelsPage {
 		}
 		return this;
 	}
-//		
+		
 //		public PG_004_EventPage Verify_Event() {
 //			String methodName = Thread.currentThread().getStackTrace()[1].getMethodName().replace("_", " ");
 //			try {
@@ -290,5 +290,5 @@ public class PG_003_ArticelsPage {
 //			}
 //			return new PG_004_EventPage();
 //		}
-//
+
 }

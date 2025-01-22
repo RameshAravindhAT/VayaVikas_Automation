@@ -4,7 +4,7 @@
  <test name="LoginTest_Chrome" parallel="classes" thread-count="1">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testPackage.TC_002_HomePage"/>
+      <class name="testPackage.TC_003_ArticelsPage"/>
     </classes>
   </test>
 </suite> <!-- Suite -->
